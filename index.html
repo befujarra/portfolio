@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portifólio</title>
+  </head>
+  <body>
+    <div class="main-page">
+      <nav class="navigator">
+        <img src="assets/8.png" alt="logo" />
+
+        <ul class="menu">
+          <li class="nav-item"><a href="">Home</a></li>
+          <li class="nav-item"><a href="">Projetos</a></li>
+          <li class="nav-item"><a href="">Sobre Mim</a></li>
+          <li class="nav-item"><a href="">Contato</a></li>
+        </ul>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="assets/menu_white_36dp.svg" alt="menu" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul class="menu">
+          <li class="nav-item"><a href="">Home</a></li>
+          <li class="nav-item"><a href="">Projetos</a></li>
+          <li class="nav-item"><a href="">Sobre Mim</a></li>
+          <li class="nav-item"><a href="">Contato</a></li>
+        </ul>
+      </div>
+      <div class="content-principal">
+        <img src="assets/5.png" alt="imagem de perfil" />
+        <div class="textos">
+          <h1 class="title-principal"><span>Bem-Vindo</span></h1>
+          <h3 class="title-secundary">Ao meu Portifólio</h3>
+          <br />
+          <h1 class="sub-title">Olá ! <span>Eu</span> sou Desenvolvedor Web</h1>
+          <br />
+          <p>
+            Sou Vinicius Fujarra, um desenvolvedor e apaixonado por tecnologia.
+            Meu objetivo é criar soluções inovadoras e eficientes para o mundo
+            digital. Navegue por este portfólio para conhecer meus projetos
+            anteriores, e se for o caso, descobrir como posso ajudar a
+            transformar suas ideias em realidade.
+          </p>
+        </div>
+      </div>
+      <div class="footer-principal">
+        <div class="imgs-footer">
+          <a href="https://www.linkedin.com/in/vinicius-fujarra/">
+            <img src="assets/6.png" alt="linkedin"
+          /></a>
+          <a href="https://github.com/befujarra">
+            <img src="assets/7.png" alt="GitHUb"
+          /></a>
+        </div>
+        <button class="btn-Cv">Baixar CV</button>
+      </div>
+    </div>
+    <section class="projetos">
+      <h1 class="title-projects">Projetos</h1>
+      <div class="project1">
+        <img src="assets/10.png" alt="project1" class="imgs-projects" />
+        <div class="texts-project">
+          <div>
+            <p>
+              Página responsiva para academia, com area para contato, categorias
+              de esportes etc.
+            </p>
+          </div>
+          <a
+            href="https://befujarra.github.io/site-de-academia/"
+            class="btn-projects"
+            >Acessar</a
+          >
+        </div>
+      </div>
+      <hr class="division" />
+      <div class="project2">
+        <img src="assets/9.png" alt="project1" class="imgs-projects" />
+        <div class="texts-project">
+          <div>
+            <p>Página estática de lanchonete</p>
+          </div>
+          <a
+            href="https://befujarra.github.io/lanchonete-webpage/"
+            class="btn-projects"
+            >Acessar</a
+          >
+        </div>
+      </div>
+      <hr class="division" />
+      <div class="project3">
+        <img src="assets/13.png" alt="project1" class="imgs-projects" />
+        <div class="texts-project">
+          <div>
+            <p>
+              Página com funcionalidade de fazer o fechamento de produção,
+              calculo de perdas e eficiencia
+            </p>
+          </div>
+          <a
+            href="https://befujarra.github.io/fechamento-da-e3/"
+            class="btn-projects"
+            >Acessar</a
+          >
+        </div>
+      </div>
+      <hr class="division" />
+      <div class="project4">
+        <img src="assets/appLanche.png" alt="project1" class="imgs-projects" />
+        <div class="texts-project">
+          <div>
+            <p>Página mobile para pedidos de lanchonete</p>
+          </div>
+          <a
+            href="https://befujarra.github.io/pedidos-lanches/"
+            class="btn-projects"
+            >Acessar</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <img src="assets/15.png" alt="logo" />
+      <p>
+        Bem-vindo ao meu portfólio web! Sou Vinicius Fujarra, um desenvolvedor
+        apaixonado por tecnologia e inovação. Tenho formação em Técnico de Redes
+        de Computadores e atualmente estou cursando Análise e Desenvolvimento de
+        Sistemas.<br />
+        Com uma ampla experiência em desenvolvimento de software, estou sempre
+        buscando aprimorar minhas habilidades e criar soluções criativas para os
+        desafios do mundo digital. Neste portfólio, você encontrará uma seleção
+        dos meus projetos anteriores e poderá explorar minha capacidade como
+        desenvolvedor.<br />
+        Fique à vontade para navegar e conhecer um pouco mais sobre mim e meu
+        trabalho.<br />
+        Obrigado pela visita!
+      </p>
+      <img src="assets/16.png" alt="quer falar comigo" />
+      <form class="form-about">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" /><br /><br />
+        <label for="email">Email:</label>
+        <input type"email" name="email" id="email"><br /><br />
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+        <button class="btn-projects">Enviar</button>
+      </form>
+      <div class="teste"><br /><br /><br /><br /><br /><br /><br /><br /></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
